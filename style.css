@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background: paleturquoise;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    height:50vh;
+  }
+  
+  #timer {
+    font-size: 60px;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
